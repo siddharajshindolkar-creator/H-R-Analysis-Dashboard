@@ -96,11 +96,11 @@ To build an interactive HR analytics tool that:
 
 • Business Impact & Insights -
 
-📉 Attrition Control: Identify high-risk groups (e.g., 25–34 age group) and take preventive actions
-👥 Workforce Planning: Understand employee distribution across departments and age groups
-🎯 Targeted HR Strategies: Focus on departments like R&D with higher attrition
-📊 Employee Engagement: Use job satisfaction data to improve workplace policies
-💰 Cost Reduction: Reduce hiring and training costs by improving retention
+- Attrition Control: Identify high-risk groups (e.g., 25–34 age group) and take preventive actions
+- Workforce Planning: Understand employee distribution across departments and age groups
+- Targeted HR Strategies: Focus on departments like R&D with higher attrition-
+- Employee Engagement: Use job satisfaction data to improve workplace policies
+- Cost Reduction: Reduce hiring and training costs by improving retention
 
 
 6. Screenshot of the dashboard:
