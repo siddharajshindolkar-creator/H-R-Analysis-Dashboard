@@ -13,12 +13,12 @@ The HR Analytics Dashboard helps organizations monitor employee attrition, analy
 
 The dashboard was built using the following tools and technologies:
 
-• 📊 Power BI Desktop – Used for creating interactive dashboards and visual reports
-• 📂 Power Query – Data cleaning and transformation (handling employee dataset)
-• 🧠 DAX (Data Analysis Expressions) – Used to calculate KPIs such as Attrition Rate, Active Employees, and Age-based metrics
-• 📝 Data Modeling – Structured relationships between employee attributes (department, education, age group, etc.)
-• 🎛️ Interactive Features – Slicers for education levels (Bachelor’s, Master’s, etc.)
-• 📁 File Format – .pbit template for reusability and .pbix for development.
+• Power BI Desktop – Used for creating interactive dashboards and visual reports
+• Power Query – Data cleaning and transformation (handling employee dataset)
+• DAX (Data Analysis Expressions) – Used to calculate KPIs such as Attrition Rate, Active Employees, and Age-based metrics
+• Data Modeling – Structured relationships between employee attributes (department, education, age group, etc.)
+• Interactive Features – Slicers for education levels (Bachelor’s, Master’s, etc.)
+• File Format – .pbit template for reusability and .pbix for development.
 
 
 4. Data Source:
