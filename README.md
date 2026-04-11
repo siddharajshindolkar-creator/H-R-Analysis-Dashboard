@@ -104,4 +104,4 @@ To build an interactive HR analytics tool that:
 
 
 6. Screenshot of the dashboard:
-   Link: 
+   Link: https://github.com/siddharajshindolkar-creator/H-R-Analysis-Dashboard/blob/main/Snap%20H%20R%20Analystics.PNG
