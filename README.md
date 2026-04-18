@@ -105,7 +105,7 @@ The dashboard provides a "comprehensive view of workforce insights", enabling HR
 ---
 
 ***8. Dashboard Preview:***
-      [HR Analytics Dashboard](dashboard-preview.png)
+      [HR Analytics Dashboard](https://github.com/siddharajshindolkar-creator/H-R-Analysis-Dashboard/blob/main/Snap%20H%20R%20Analystics.PNG)
 
 
 
