@@ -1,107 +1,128 @@
-1. Project Title:
+***HR Analytics Dashboard (Power BI)***
 
-👥 HR Analytics Dashboard: Employee Attrition & Workforce Insights -
-An interactive Power BI dashboard designed to analyze employee data, uncover attrition patterns, and provide actionable insights into workforce demographics, job satisfaction, and retention trends.
-
-
-2. Short Description:
-
-The HR Analytics Dashboard helps organizations monitor employee attrition, analyze workforce distribution, and identify key factors influencing employee turnover. It enables HR teams to make data-driven decisions to improve retention and organizational performance.
+**An interactive Power BI dashboard designed to analyze employee attrition, workforce demographics, and job satisfaction trends—helping HR teams make data-driven decisions to improve employee retention and organizational performance**
 
 
-3. Tech Stack:
 
-The dashboard was built using the following tools and technologies:
+***1. Project Overview:***
 
-• Power BI Desktop – Used for creating interactive dashboards and visual reports
-• Power Query – Data cleaning and transformation (handling employee dataset)
-• DAX (Data Analysis Expressions) – Used to calculate KPIs such as Attrition Rate, Active Employees, and Age-based metrics
-• Data Modeling – Structured relationships between employee attributes (department, education, age group, etc.)
-• Interactive Features – Slicers for education levels (Bachelor’s, Master’s, etc.)
-• File Format – .pbit template for reusability and .pbix for development.
+Employee attrition is a critical challenge for organizations, impacting productivity, morale, and costs. This project focuses on analyzing HR data to uncover:
 
+* Why employees leave
+* Which departments and roles are most affected
+* How factors like age, education, and job satisfaction influence attrition
 
-4. Data Source:
-
-Source: HR employee dataset (sample corporate HR data)
-
-The dataset includes detailed employee-level information such as:
-
-Employee count and attrition status
-Department (R&D, Sales, HR)
-Age groups (Under 25 to Over 55)
-Education fields (Life Sciences, Medical, Marketing, etc.)
-Job roles and satisfaction ratings
-Gender distribution
-
-This structured dataset enables deep analysis of employee behavior and attrition trends.
+The dashboard provides a "comprehensive view of workforce insights", enabling HR teams to take proactive actions.
 
 
-5. Highlights: 
-   
-• Business Problem -
-Employee attrition is a major challenge for organizations, leading to increased hiring costs and productivity loss.
 
-However, HR teams often struggle to answer:
-- Which departments have the highest attrition?
-- Which age groups are more likely to leave?
-- Does education or job role impact attrition?
-- How does job satisfaction relate to employee retention?
+***2. Objectives:***
 
-• Goal of the Dashboard -
-To build an interactive HR analytics tool that:
+- Monitor overall attrition rate and workforce size
+- Identify high-attrition departments and roles
+- Analyze employee distribution by age group and education
+- Understand job satisfaction trends
+- Enable strategic HR decision-making
 
-- Tracks employee attrition and workforce distribution
-- Identifies key drivers behind employee turnover
-- Enables filtering by education and demographics
-- Supports strategic HR decision-making
 
-• Walkthrough of Key Visuals -
 
-📌 Key KPIs (Top Section)
+***3. Dashboard Highlights:***
+
+**Key Metrics**
+
 - Total Employees: 1470
 - Attrition Count: 237
 - Attrition Rate: 16.12%
 - Active Employees: 1233
 - Average Age: 37
-👉 Provides a quick snapshot of overall workforce health.
 
-📊 Attrition by Department (Pie Chart)
-- R&D has the highest attrition
-- Followed by Sales and HR
-👉 Helps identify departments needing retention strategies.
+**Key Visuals**
 
-📊 Employees by Age Group (Stacked Bar Chart)
-- Highest workforce in 25–34 age group
-- Attrition trends vary across age bands
-👉 Useful for demographic analysis and workforce planning.
+ *Attrition by Department (Pie Chart)*
+  - Highlights departments like *R&D, Sales, and HR* with varying attrition levels
 
-📊 Job Satisfaction Rating (Matrix Table)
--Displays satisfaction levels (1–4) across job roles
-- Roles like Sales Executive and Research Scientist show varied satisfaction
-👉 Helps correlate satisfaction with attrition risk.
+ *Employees by Age Group (Stacked Bar Chart)*
+  - Shows workforce distribution across age bands and gender
 
-📊 Attrition by Education Field (Bar Chart)
-- Highest attrition in Life Sciences and Medical fields
-👉 Indicates which educational backgrounds are more prone to turnover.
+ *Job Satisfaction Rating (Matrix Table)*
+  - Displays satisfaction levels across different job roles
 
-📊 Attrition Rate by Gender & Age Group (Donut Charts)
-- Visual comparison of male vs female attrition across age groups
-- Highest attrition observed in 25–34 age group
-👉 Helps HR design targeted retention policies.
+ *Attrition by Education Field (Bar Chart)*
+  - Identifies which educational backgrounds have higher attrition
 
-🎛️ Education Filter (Top Right Slicer)
-- Allows filtering by education level (Bachelor’s, Master’s, etc.)
-👉 Enables dynamic and customized analysis.
-
-• Business Impact & Insights -
-
-- Attrition Control: Identify high-risk groups (e.g., 25–34 age group) and take preventive actions
-- Workforce Planning: Understand employee distribution across departments and age groups
-- Targeted HR Strategies: Focus on departments like R&D with higher attrition-
-- Employee Engagement: Use job satisfaction data to improve workplace policies
-- Cost Reduction: Reduce hiring and training costs by improving retention
+ *Attrition Rate by Gender & Age Group (Donut Charts)*
+  - Provides deeper insights into demographic-based attrition trends
 
 
-6. Screenshot of the dashboard:
-   Link: https://github.com/siddharajshindolkar-creator/H-R-Analysis-Dashboard/blob/main/Snap%20H%20R%20Analystics.PNG
+**💡 Key Insights**
+
+- R&D Department Faces Highest Attrition
+- Majority Workforce in 25–34 Age Group
+- Life Sciences & Medical Background Employees Show Higher Attrition
+- Gender-Based Differences Exist Across Age Groups
+- Job Satisfaction Directly Impacts Retention
+
+
+
+***4. Tech Stack:***
+
+- Power BI Desktop – Dashboard creation and visualization
+- Power Query – Data cleaning and transformation
+- DAX (Data Analysis Expressions) – KPI calculations and measures
+- Data Modeling – Relationships between HR datasets
+
+
+
+***5. Dataset:***
+
+- Source: HR Employee Dataset (sample corporate HR data)
+- Size: ~1,470 employees
+- Features Include:
+
+  - Employee demographics (age, gender)
+  - Department and job roles
+  - Education field
+  - Job satisfaction ratings
+  - Attrition status
+
+
+
+***6. Files in Repository:***
+
+* `HR Analytics Dashboard.pbix` / `.pbit` – Power BI file
+* `dashboard-preview.png` – Dashboard screenshot
+* `README.md` – Project documentation
+
+
+
+***7. How to Use:***
+
+1. Download the Power BI file from this repository
+2. Open in **Power BI Desktop**
+3. Refresh or load dataset if required
+4. Interact with filters and visuals
+
+---
+
+***8. Dashboard Preview:***
+      [HR Analytics Dashboard](dashboard-preview.png)
+
+
+
+***9. Business Impact:***
+
+This dashboard helps organizations:
+
+- Reduce employee attrition
+- Improve workforce planning
+- Identify high-risk employee segments
+- Enhance job satisfaction strategies
+- Support HR policy decisions with data
+
+
+
+***Author***
+
+**Siddharaj Shindolkar**
+Aspiring Data Analyst | Power BI | SQL | Excel
+
